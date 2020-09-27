@@ -1,0 +1,130 @@
+<div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><span>Manage App</span></div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Absence</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">CRM</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">ITSM</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Attendance</a>
+        <br>
+        <br>
+         <span class="add-modules"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp;Add Modules</span>
+
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <!-- <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <span>Backend System</span>
+          <!-- <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> 
+          </ul> -->
+        </div>
+      </nav>
+      <br>
+    
+      <div class="container-fluid module-main-box">
+
+        <div class="row alert alert-primary message-backend-system" role="alert" >
+            Please select your backend system!
+          </div>
+
+          <div class="row input-group">
+                <select style="color: #6264A7;" class="form-control" id="exampleFormControlSelect1">
+                    <option value=""  selected="selected" disabled> --select options--</option>
+                    <option>Peoplesoft</option>
+                    <option>Workday</option>
+                    <option>HR Management</option>
+                  </select>
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                  </div>
+                
+          </div>
+
+
+          <div class="scenario-box">
+
+            <div class="row model-selection-box" role="alert">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" style="text-align:center">Select Modules</label>
+                  </div>
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" style="float:right"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                  </div>
+              </div>
+            
+          <div class="row model-selection-box" role="alert">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Apply Leave</label>
+              </div>
+          </div>
+
+          <div class="row model-selection-box" role="alert">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                <label class="custom-control-label" for="customCheck1">Leave Balance</label>
+              </div>
+          </div>
+          <div class="row model-selection-box" role="alert">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                <label class="custom-control-label" for="customCheck1">Leave History</label>
+              </div>
+          </div>
+          <div class="row model-selection-box" role="alert">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                <label class="custom-control-label" for="customCheck1">Cancel Leave</label>
+              </div>
+          </div>
+
+          <div class="row model-selection-box" role="alert">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                <label class="custom-control-label" for="customCheck1">Holiday List</label>
+              </div>
+          </div>
+
+
+
+
+          <div class="row model-selection-box" role="alert">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                <label class="custom-control-label" for="customCheck1">Optional Holiday</label>
+              </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+  </div>
+  <!-- /#wrapper -->
